@@ -20,8 +20,6 @@
 #define cudaCheck(e) {e}
 #endif
 
-typedef half2 ftype;
-
 inline int getStartIdx(std::vector<size_t> &idx, size_t begin, size_t size,
                        const std::vector<size_t> &starts, const std::vector<size_t> &sizes, size_t offset,
                        size_t lower, size_t upper, int pcnt) {
